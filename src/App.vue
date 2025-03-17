@@ -2,13 +2,14 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="مرحباً بك في تطبيق Vue.js الخاص بك"/>
-    <UserInfo 
+    <!-- <UserInfo 
       name="أحمد محمد" 
       email="ahmed@example.com" 
       title="بيانات المستخدم"
     />
     <FiltersDemo title="تعلم الفلاتر في Vue.js" />
-    <FiltersComponent />
+    <FiltersComponent /> -->
+    <DevComponent />
   </div>
 </template>
 
@@ -16,7 +17,8 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import UserInfo from './components/UserInfo.vue'
 // import FiltersDemo from './components/FiltersDemo.vue'
-import FiltersComponent from './components/FiltersComponent.vue'
+// import FiltersComponent from './components/FiltersComponent.vue'
+import DevComponent from './components/dev.vue'
 
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     // HelloWorld,
     // UserInfo,
     // FiltersDemo,
-    FiltersComponent
+    // FiltersComponent,
+    DevComponent
   }
 }
 </script>

@@ -35,6 +35,17 @@ app.config.globalProperties.$filters = {
   },
 
   /**
+   * فلتر removeNumbers
+   * الوصف: يقوم بحذف جميع الأرقام من النص.
+   * المدخل: نص (String)
+   * المخرج: نص بدون أرقام (String)
+   */
+  removeNumbers: function(value) {
+    if (!value) return '';
+    return value.toString().replace(/\d/g, '');
+  },
+
+  /**
    * فلتر formatDate
    * الوصف: يقوم بتنسيق التاريخ إلى صيغة dd/mm/yyyy.
    * المدخل: تاريخ أو سلسلة تاريخية.
