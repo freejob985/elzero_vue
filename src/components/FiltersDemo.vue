@@ -133,6 +133,11 @@ export default {
         ? this.originalText.substring(0, 10) + '...' 
         : this.originalText;
     },
+    removeNumbers() {
+      // حذف الأرقام من النص
+      return this.originalText.replace(/\d/g, '');
+    },
+
 
     /**
      * فلاتر الأرقام
