@@ -10,6 +10,7 @@
     <FiltersDemo title="تعلم الفلاتر في Vue.js" />
     <FiltersComponent /> -->
     <DevComponent />
+    <InteractiveComponent />
   </div>
 </template>
 
@@ -19,6 +20,7 @@
 // import FiltersDemo from './components/FiltersDemo.vue'
 // import FiltersComponent from './components/FiltersComponent.vue'
 import DevComponent from './components/dev.vue'
+import InteractiveComponent from './components/InteractiveComponent.vue'
 
 export default {
   name: 'App',
@@ -27,7 +29,8 @@ export default {
     // UserInfo,
     // FiltersDemo,
     // FiltersComponent,
-    DevComponent
+    DevComponent,
+    InteractiveComponent
   }
 }
 </script>
